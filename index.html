@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Challenge-Alura-Criptografia</title>
+</head>
+<body>
+    <header id="logo">
+              <img src="Logo.png">
+    </header>
+    <main>
+            <section id="principal">
+                <textarea rows="10" cols="25" id="entrada" placeholder="Digite Seu Texto a Ser Criptografado!"></textarea>
+                <p>Digite apenas letras Minusculas</p>
+            </section>
+
+
+            <section id="secundario">
+                <textarea rows="5" cols="30" id="saida" placeholder="Seu Texto aparecera aqui!" disabled="none"></textarea>
+                <img src="fundo.png" class="fundo">
+            </section>
+
+
+            <section id="botoes">
+                
+                <button id="btnCrip" onclick="criptografia()">Criptografar</button>
+                <button id="btnDes" onclick="descriptografia()">Descriptografar</button>
+                <button id="copiar">Copiar</button>
+            </section>
+    </main>
+    <footer>
+
+    </footer>
+
+        <script src="crip.js"></script>
+</body>
+</html>
