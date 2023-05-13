@@ -34,6 +34,7 @@ main {
 textarea {
     border: none;
     background: rgb(238, 235, 235);
+    text-transform: lowercase;
 }
 
 
@@ -91,4 +92,10 @@ h1 {
 
 #terceiro {
     position: absolute;
+}
+
+#botoes :hover {
+               opacity: 70%;
+               background: blue;
+               color: white;
 }
